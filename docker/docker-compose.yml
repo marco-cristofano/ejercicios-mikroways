@@ -8,3 +8,11 @@ services:
     volumes:
       - ../:/usr/src/app/
     container_name: python
+  go:
+    image: golang:1.19.4
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../:/usr/src/app/
+    container_name: go
+
