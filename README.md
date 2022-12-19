@@ -29,5 +29,9 @@ Para su ejecucion, si no se posee python instalado, se debe:
 8- Para una prueba manual: python corchetes_balanceados.py 
 
 
+Los ejercicios de "corchetes balanceados" y "calcular vuelto" fueron resueltos en Golang. No llegué con el tiempo a investigar la implemetación de tests para las funciones.
+
+
+
 [Documentación sobre yaml](sobre_yaml/README.md)
 
