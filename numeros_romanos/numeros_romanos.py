@@ -23,3 +23,12 @@ class NumerosRomanos:
         # Lo correcto es crear una custom except para este error y validar
         if not isinstance(numero, int):
             raise Exception('numero debe ser entero')
+
+
+if __name__ == "__main__":
+    numero = ''
+    while (not numero.isdecimal()):
+        numero = input("Ingrese el número a convertir a romano: ")
+    minuscula = input(
+        "Ingrese 1 si desea imprimirmo en minuscula, caso contrario 0: ")
+    print(NumerosRomanos.run(int(numero), int(minuscula)))

@@ -26,3 +26,13 @@ class CalcularVuelto:
             raise Exception('y debe ser entero')
         if y > x:
             raise Exception('El dinero no alcanza')
+
+
+if __name__ == "__main__":
+    x = ''
+    while (not x.isdecimal()):
+        x = input("Ingrese x: ")
+    y = ''
+    while (not y.isdecimal()):
+        y = input("Ingrese y: ")
+    print(CalcularVuelto.run(int(x), int(y)))
